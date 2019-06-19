@@ -1,4 +1,9 @@
-[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/hashicorp-vault-plugin/master)](https://ci.jenkins.io/job/Plugins/job/hashicorp-vault-plugin/job/master/)
+# Why do we have a GR fork?
+
+Support for Vault App Role Credentials was [added](https://github.com/jenkinsci/hashicorp-vault-plugin/pull/20) in master of the parent project, but it was never released as a version. I (Anton) found that subsequent PRs introduced a couple of blockers (https://issues.jenkins-ci.org/browse/JENKINS-57847 and https://issues.jenkins-ci.org/browse/JENKINS-52646). I am trying to work with the committer to cut an official version from the working commit, but he seems to lack time to do so.
+
+This repo is forked at the working commit and contains no changes other than artifact name and version.
+
 # Jenkins Vault Plugin
 
 This plugin adds a build wrapper to set environment variables from a HashiCorp [Vault](https://www.vaultproject.io/) secret. Secrets are generally masked in the build log, so you can't accidentally print them.  
