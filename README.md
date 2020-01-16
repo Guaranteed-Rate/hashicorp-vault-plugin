@@ -4,6 +4,8 @@ Support for Vault App Role Credentials was [added](https://github.com/jenkinsci/
 
 This repo is forked at the working commit and contains no changes other than artifact name and version.
 
+To build this run `mvn clean && mvn package`
+
 # Jenkins Vault Plugin
 
 This plugin adds a build wrapper to set environment variables from a HashiCorp [Vault](https://www.vaultproject.io/) secret. Secrets are generally masked in the build log, so you can't accidentally print them.  

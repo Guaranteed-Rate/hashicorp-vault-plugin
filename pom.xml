@@ -8,7 +8,7 @@
     <relativePath />
   </parent>
   <groupId>com.rate.jenkins.plugins</groupId>
-  <artifactId>hashicorp-vault-plugin</artifactId>
+  <artifactId>gr-hashicorp-vault-plugin</artifactId>
   <version>2.2.2</version>
   <packaging>hpi</packaging>
   <properties>
